@@ -1,0 +1,63 @@
+<html>
+  <head>
+    <style>
+      *, body, h1, h2 { margin: 0; }
+      body { margin: 0; }
+      section { border: 1px solid black;
+      width: 1900px;
+       display: grid;
+       grid-template-columns: 760px 1140px;
+       grid-template-rows: repeat(7,76.9px);
+      }
+      section2 { border: 1px solid black;
+      width: 1900px;
+       display: grid;
+       grid-template-columns: 1900px;
+       grid-template-rows: repeat(6,76.9px);
+      }
+      div { width: 100%; height: 100%; background: red;z-index: -1;
+      }
+      div:nth-child(even) {width: 100%; height: 100%; background: white; z-index: -1;}
+      .bluebox{
+        background: blue;
+        grid-column: 1/2;
+        grid-row:1/8;
+      }
+      .star{
+        width:10px;
+        height:10px;
+        float:left;
+      }
+
+}
+    </style>
+  </head>
+
+  <body>
+    <section>
+      <div class = "bluebox">
+        <img class="profile-photo" src="img/gratt.png">
+      </div>
+      <div>1</div>
+      <div>2</div>
+      <div>3</div>
+      <div>4</div>
+      <div>5</div>
+      <div>6</div>
+      <div>7</div>
+    </section>
+    <section2>
+      <div>8</div>
+      <div>9</div>
+      <div>10</div>
+      <div>11</div>
+      <div>12</div>
+      <div>13</div>
+    </section2>
+
+
+
+
+  </body>
+
+</html>
