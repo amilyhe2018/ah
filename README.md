@@ -1,3 +1,7 @@
+Week 3 Homework
+
+https://amilyhe2018.github.io/ah/assignment3.html
+
 Week 3 Exercise 
 
 https://amilyhe2018.github.io/ah/flag_jquery.html
